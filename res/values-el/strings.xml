@@ -84,7 +84,7 @@
     <string name="snack_download_verification_failed">Αποτυχία επαλήθευσης ενημέρωσης.</string>
     <string name="snack_download_verified">Η λήψη ολοκληρώθηκε.</string>
     <string name="snack_update_not_installable">Αυτή η ενημέρωση δεν μπορεί να εγκατασταθεί πάνω από την τρέχουσα έκδοση.</string>
-    <string name="header_title_text">ArrowOS\n%1$s</string>
+    <string name="header_title_text">LegionOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="εκδοση" παραδειγμα="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Τελευταίος έλεγχος: <xliff:g id="ημερομηνία" παράδειγμα="1 Ιανουαρίου 1970">%1$s</xliff:g> (<xliff:g id="ωρα" παράδειγμα="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">Βέλος OS <xliff:g id="εκδοση" παραδειγμα="14.1">%1$s</xliff:g></string>
@@ -135,6 +135,6 @@
     <string name="new_updates_channel_title">Νέες ενημερώσεις</string>
     <string name="ongoing_channel_title">Λήψεις σε εξέλιξη</string>
     <string name="update_failed_channel_title">Η ενημέρωση απέτυχε</string>
-    <string name="arrowos_display_version">ArrowOS <xliff:g id="εκδοση">%1$s</xliff:g> | <xliff:g id="παραλλαγή">%2$s</xliff:g></string>
+    <string name="legionos_display_version">LegionOS <xliff:g id="εκδοση">%1$s</xliff:g> | <xliff:g id="παραλλαγή">%2$s</xliff:g></string>
     <string name="build_info_card_title">Τρέχουσες πληροφορίες κατασκευής</string>
 </resources>

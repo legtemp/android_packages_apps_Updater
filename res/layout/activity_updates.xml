@@ -105,7 +105,7 @@
                             android:paddingBottom="8sp"
                             android:textColor="@color/inverted"
                             android:textSize="20sp"
-                            android:text="ArrowOS" />
+                            android:text="LegionOS" />
 
                         <TextView
                             android:id="@+id/device_info"

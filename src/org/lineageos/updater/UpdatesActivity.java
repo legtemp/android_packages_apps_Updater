@@ -143,7 +143,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         mCurrentBuildDate = findViewById(R.id.current_build_date);
         mDeviceInfo = findViewById(R.id.device_info);
 
-        mCurrentBuildVersion.setText(String.format(getString(R.string.arrowos_display_version),
+        mCurrentBuildVersion.setText(String.format(getString(R.string.legionos_display_version),
                 SystemProperties.get(Constants.PROP_BUILD_VERSION),
                 SystemProperties.get(Constants.PROP_ZIP_TYPE)));
 
@@ -455,7 +455,7 @@ public class UpdatesActivity extends UpdatesListActivity {
                 mirrors = new LinkedHashMap<>();
 
                 try {
-                    Thread mirrorsData = new Thread(() -> mirrors = UpdaterController.arrowMirrors(update[0], rankSort));
+                    Thread mirrorsData = new Thread(() -> mirrors = UpdaterController.legionMirrors(update[0], rankSort));
                     mirrorsData.start();
                     mirrorsData.join();
                 } catch (InterruptedException e) {

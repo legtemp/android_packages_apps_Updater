@@ -151,12 +151,12 @@ public class Utils {
         return updates;
     }
 
-    public static String getArrowDownloadUrl(Context context) {
+    public static String getLegionDownloadUrl(Context context) {
         String device = SystemProperties.get(Constants.PROP_NEXT_DEVICE,
                 SystemProperties.get(Constants.PROP_DEVICE));
-        String arrowDownloadUrl = context.getString(R.string.arrow_download_url);
+        String legionDownloadUrl = context.getString(R.string.legion_download_url);
 
-        return arrowDownloadUrl.replace("{device}", device);
+        return legionDownloadUrl.replace("{device}", device);
     }
 
     public static String getServerURL(Context context) {

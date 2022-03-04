@@ -39,7 +39,7 @@
                 android:paddingBottom="8sp"
                 android:textColor="@color/inverted"
                 android:textSize="20sp"
-                tools:text="ArrowOS" />
+                tools:text="LegionOS" />
 
             <TextView
                 android:id="@+id/build_date"

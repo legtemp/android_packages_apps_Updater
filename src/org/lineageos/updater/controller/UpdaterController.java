@@ -511,7 +511,7 @@ public class UpdaterController {
         }
     }
 
-    public static Map<String, String> arrowMirrors(UpdateInfo update, Boolean rankSort) {
+    public static Map<String, String> legionMirrors(UpdateInfo update, Boolean rankSort) {
         int mirrorCount = 1;
         String mirrorLink;
         mirror_links = new LinkedHashMap<>();
@@ -521,7 +521,7 @@ public class UpdaterController {
         String defaultMirrorUrl = update.getDownloadUrl();
 
         for (String mirror:
-             Constants.arrowMirrors) {
+             Constants.legionMirrors) {
             mirrorLink = defaultMirrorUrl.replaceFirst("mirror[0-9]", "mirror" + mirrorCount);
             mirror_links.put(mirror, mirrorLink);
             rank_links.put(mirror, mirrorLink.split("https://")[1].split("/download")[0]);
